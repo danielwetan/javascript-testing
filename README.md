@@ -33,3 +33,11 @@ Filename Extension
 Folder
 *__tests__*
 
+**Testing Number Cheatsheet**
+.toBe
+.toBeGreaterThan
+.toBeGreaterThanOrEqual
+.toBeLessThan
+.toBeLessThanOrEqual
+
+

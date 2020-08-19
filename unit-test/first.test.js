@@ -6,7 +6,7 @@
 */
 
 const hello = () => {
-  return "Hello Testing";
+  return "Hello Testing"
 }
 
 test("first test", () => {
