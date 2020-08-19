@@ -33,11 +33,29 @@ Filename Extension
 Folder
 *__tests__*
 
-**Testing Number Cheatsheet**
+**Testing Number**
+Test Case
+Input | Output
+sum(2,3) |  5
+sum(2,3) | >3
+sum(2,3) | >=5
+sum(2,3) | <6
+sum(2,3) | <=5
+
+Cheatsheet
 .toBe
 .toBeGreaterThan
 .toBeGreaterThanOrEqual
 .toBeLessThan
 .toBeLessThanOrEqual
 
+**Testing String**
+Greet function -> hello(str)
+Test case
+Input | Output
+bambang | Hello, Bambang
+jhon doe | Hello, Jhon
+undefined | Hello, Stranger
+empty | Hello, Stranger
+1234 | Wrong Name
 
