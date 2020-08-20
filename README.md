@@ -71,3 +71,7 @@ empty | Hello, Stranger
 .toBeTruthy -> matches anything that an if statement treats as true
 .toBeFalse -> matches anything that an if statement treats as false
 .not.* -> negation
+
+**Testing Exception**
+Test function that throws an error when it's called.
+.toThrow()
