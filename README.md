@@ -17,6 +17,7 @@ Dengan software testing kita dapat mendeteksi perilaku yang tidak diinginkan dar
 - Kode lebih terorganisi
 
 **Metode Testing**
+
 1. End-to-End Testing
 Pengujian secara menyeluruh. UI dan fungsionalitas
 2. Integration Testing
@@ -25,6 +26,7 @@ Pengujian beberapa function dengan dependency
 Pengujian pada bagian terkecil aplikasi, contoh menguji function.
 
 **Testing menggunakan JEST**
+
 JEST akan melakukan testing pada file atau folder dengan kriteria:
 Filename Suffix
 **.test.js *.spec.js*
@@ -34,6 +36,7 @@ Folder
 *__tests__*
 
 **Testing Number**
+
 Test Case
 Input | Output
 sum(2,3) |  5
@@ -50,6 +53,7 @@ Cheatsheet
 .toBeLessThanOrEqual
 
 **Testing String**
+
 Greet function -> hello(str)
 Test case
 Input | Output
@@ -59,3 +63,11 @@ undefined | Hello, Stranger
 empty | Hello, Stranger
 1234 | Wrong Name
 
+**Testing Truthiness**
+
+.toBeNull -> matches only null
+.toBeUndefined -> matches only undefined
+.toBeDefined -> is the opposite of .toBeUndefined
+.toBeTruthy -> matches anything that an if statement treats as true
+.toBeFalse -> matches anything that an if statement treats as false
+.not.* -> negation
