@@ -1,10 +1,15 @@
 const sum = require('./index');
 
+const mySum = (a, b) => {
+  return a + b
+}
+const mockSum = jest.fn(mySum)
+
 // Menggabung test case menjadi satu kategory
 describe('Testing Number', () => {
 
   test('test #1', () => {
-    expect(sum(2, 3)).toBe(5)
+    expect(mockSum(2, 3)).toBe(5)
   });
 
   test('test #2', () => {

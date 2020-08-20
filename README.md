@@ -75,3 +75,19 @@ empty | Hello, Stranger
 **Testing Exception**
 Test function that throws an error when it's called.
 .toThrow()
+
+**Mock Function**
+
+Mock function is a Fake function use to replace something you can't control.
+
+Create Mock function in Jest:
+jest.fn()
+
+The Mock function provides features to:
+- Capture calls
+- Set return values
+- Change the implementation
+
+Folder naming for Mock function:
+__mocks__
+
