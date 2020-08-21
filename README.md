@@ -92,3 +92,6 @@ Folder naming for Mock function:
 __mocks__
 
 **Testing Asynchronous**
+- Callback
+- Promise
+- Async/Await
